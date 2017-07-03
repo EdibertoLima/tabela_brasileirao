@@ -298,7 +298,8 @@ public class Times extends javax.swing.JInternalFrame {
         t.setnomes("São Paulo", 1);
         t.setnomes("Flamengo", 2);
         t.setnomes("Gremio", 3);
-       
+       //teste netbeans
+      
         dao.pesquisaPorAno(Integer.parseInt(Tnomes.getText()));
         dao.create(t);
         
